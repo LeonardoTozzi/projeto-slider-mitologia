@@ -1,23 +1,23 @@
-@media (max-width: 620px) {
-    .pokemon-slider {
+@media (max-width: 600px) {
+    .deuses-slider {
         padding: 0 15px;
         gap: 10px;
     }
 
     .btn-seta{
-        width: 20px;
-        height: 20px;
+        width: 30%;
+        height: 10%;
         padding: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .lista-pokemons {
+    .lista-deuses {
         height: 480px;
     }
 
-    .cartao .imagem-pokemon {
+    .cartao .imagem-deuses {
         max-height: 230px;
 
     }
@@ -28,7 +28,46 @@
 
     }
 
-    .cartao .informacoes .vida {
+    .cartao .informacoes {
         font-size: 14px;
     }
 }
+
+@media (min-width: 600) {
+    .deuses-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta{
+        width: 10px;
+        height: 10%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .lista-deuses {
+        height: 480px;
+    }
+
+    .cartao .imagem-deuses {
+        max-height: 230px;
+
+    }
+
+    .cartao .iformacoes .nome {
+        max-width: 50%;
+        font-size: 18px;
+
+    }
+
+    .cartao .informacoes {
+        font-size: 14px;
+    }
+}
+
+
+

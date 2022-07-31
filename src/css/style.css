@@ -1,6 +1,6 @@
 body { 
     font-family: 'Outfit', sans-serif;
-    background-image: url(../imagens/fundo-site.png);
+    background-image: url(../imagens/fundo-grecia.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -16,14 +16,15 @@ body {
 
 .cabecalho .titulo {
     color: #f1ecff;
+
 }
 
-.cabecalho .pokebola {
-    width: 25px;
-    height: 25px;
+.cabecalho .acropole {
+    width: 50px;
+    height: 50px;
 }
 
-.pokemon-slider {
+.deuses-slider {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +32,7 @@ body {
     margin: 60px 0;
 }
 
-.lista-pokemons {
+.lista-deuses {
     width: 310px;
     height: 520px;
     position: relative;
@@ -53,12 +54,12 @@ body {
 }
 
 .btn-seta:hover {
-    background-color: #8351FE;
+    background-color: #333;
 }
 
 .cartao {
     opacity: 0;
-    background-color: blueviolet;
+    background-color: #333;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -76,15 +77,55 @@ body {
 }
 
 .fundo-1 {
-    background: url(../imagens/fundo-card-1.jpg) no-repeat;
+    background: url(../imagens/fundo-1.JPEG) no-repeat;
 }
 
 .fundo-2 {
-    background: url(../imagens/fundo-card-2.jpg) no-repeat;
+    background: url(../imagens/fundo-2.JPG) no-repeat;
 }
 
 .fundo-3 {
-    background: url(../imagens/fundo-card-3.jpg) no-repeat;
+    background: url(../imagens/fundo-3.JPEG) no-repeat;
+}
+
+.fundo-4 {
+    background: url(../imagens/fundo-4.JPEG)
+}
+
+.fundo-5 {
+    background: url(../imagens/fundo-5.JPEG)
+}
+
+.fundo-6 {
+    background: url(../imagens/fundo-6.JPEG)
+}
+
+.fundo-7 {
+    background: url(../imagens/fundo-7.JPEG)
+}
+
+.fundo-8 {
+    background: url(../imagens/fundo-8.JPEG)
+}
+
+.fundo-9 {
+    background: url(../imagens/fundo-9.JPEG)
+}
+
+.fundo-10 {
+    background: url(../imagens/fundo-10.JPEG)
+}
+
+.fundo-11 {
+    background: url(../imagens/fundo-11.JPEG)
+}
+
+.fundo-12 {
+    background: url(../imagens/fundo-12.JPEG)
+}
+
+.fundo-13 {
+    background: url(../imagens/fundo-13.JPEG)
 }
 
 .cartao .informacoes {
@@ -113,10 +154,10 @@ body {
     text-align: center;
 }
 
-.cartao .imagem-pokemon {
+.cartao .imagem-deuses {
     max-width: 100%;
-    max-height: 280px;
-    padding: 20px;
+    max-height: 290px;
+    padding: 10px;
 }
 
 .cartao .descricao {
