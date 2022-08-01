@@ -5,8 +5,8 @@
     }
 
     .btn-seta{
-        width: 30%;
-        height: 10%;
+        width: 30px;
+        height: 10px;
         padding: 20px;
         display: flex;
         justify-content: center;
@@ -23,7 +23,7 @@
     }
 
     .cartao .iformacoes .nome {
-        max-width: 50%;
+        max-width: 50px;
         font-size: 18px;
 
     }
@@ -33,41 +33,7 @@
     }
 }
 
-@media (min-width: 600) {
-    .deuses-slider {
-        padding: 0 15px;
-        gap: 10px;
-    }
 
-    .btn-seta{
-        width: 10px;
-        height: 10%;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-    .lista-deuses {
-        height: 480px;
-    }
-
-    .cartao .imagem-deuses {
-        max-height: 230px;
-
-    }
-
-    .cartao .iformacoes .nome {
-        max-width: 50%;
-        font-size: 18px;
-
-    }
-
-    .cartao .informacoes {
-        font-size: 14px;
-    }
-}
 
 
 
