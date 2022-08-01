@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     .deuses-slider {
-        padding: 0 15px;
+        padding: 0 1px;
         gap: 10px;
     }
 
@@ -14,11 +14,11 @@
     }
 
     .lista-deuses {
-        height: 480px;
+        height: 480%;
     }
 
     .cartao .imagem-deuses {
-        max-height: 230px;
+        max-height: 230%;
 
     }
 
