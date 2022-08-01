@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .cabecalho .titulo {
@@ -29,7 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .lista-deuses {
@@ -143,19 +143,12 @@ body {
     font-size: 22px;
 }
 
-.cartao .informacoes .vida {
-    background-color: #333;
-    color: #f1ecff;
-    padding: 6px 10px;
-    border-radius: 20px;
-}
-
 .cartao .container-imagem {
     text-align: center;
 }
 
 .cartao .imagem-deuses {
-    max-width: 100%;
+    max-width: 100PX;
     max-height: 290px;
     padding: 10px;
 }
